@@ -17,5 +17,6 @@ spec:
       containers:
       - name: udagram-reverse-proxy
         image: ta9i/udagram-reverse-proxy
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
